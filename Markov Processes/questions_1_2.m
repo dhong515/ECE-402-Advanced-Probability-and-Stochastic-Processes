@@ -3,6 +3,7 @@
 clc;
 clear;
 close all;
+
 %% Problem 1
 
 %1a
@@ -66,7 +67,8 @@ lambda = [-a, a, 0, 0; 0, -a, a, 0; 0, 0, -a, a; a, 0, 0, -a];
 
 %2b
 lambda0 = [-1, 1, 0, 0; 0, -1, 1, 0; 0, 0, -1, 1; 1, 0, 0, -1];
-fprintf("The eigenvalues of lambda is just the eigenvalues of lambda0 multiplied by a factor of alpha. \n \n")
+fprintf("The eigenvalues of lambda are just the eigenvalues of lambda0 multiplied by a factor of alpha. \n \n")
+fprintf("phi(t) = phi0(alpha*t) and  Pi = Pi0. \n \n")
 
 %2c
 e = [1; 1; 1; 1];
